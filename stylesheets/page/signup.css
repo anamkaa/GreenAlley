@@ -27,7 +27,7 @@ body {
 }
 
 .gh-input-margin {
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 1rem 3rem;
 }
 
 .gh-input-wrap-row {
@@ -46,7 +46,7 @@ body {
 
 .gh-checkbox-text {
   font-size: 0.8rem;
-  margin: 0 0.3rem 0 0.3rem;
+  margin: 0 0.3rem ;
 }
 
 .gh-chev {
