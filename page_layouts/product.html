@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | GreenAlley</title>
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="stylesheet" href="https://fab-ui-lib.netlify.app/stylesheets/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+  <link rel="stylesheet" href="/stylesheets/page/product.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="gh-navbar nav-wrap nav-search-wrap">
+    <div class="gh-nav-head nav-head">GreenAlley</div>
+
+    <div class="gh-search-holder nav-search-holder-icon">
+      <i class="fa-solid fa-seedling nav-search-icon fas"></i>
+      <input type="search" class="input gh-search" placeholder="Search for products, brands and more" />
+    </div>
+
+    <div class="nav-icon-wrap">
+      <div class="nav-icon-chip">
+        <i class="fas fa-user"></i>
+        <span class="nav-icon-text">Log In</span>
+      </div>
+      <div class="nav-icon-chip">
+        <i class="fas fa-heart"></i>
+        <span class="nav-icon-text">Wishlist</span>
+      </div>
+      <div class="nav-icon-chip">
+        <i class="fas fa-cart-arrow-down"></i>
+        <span class="nav-icon-text">Cart</span>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar ends -->
+
+  <!-- main content -->
+
+  <div class="gh-main-wrap">
+
+    <!-- filter -->
+    <aside class="gh-filter-wrap">
+      <div class="gh-filter-wrap-row">
+        <div class="h6 text-bold gh-filter-title">Filters</div>
+        <div class="h6 gh-filter-clear gh-filter-title">Clear</div>
+      </div>
+      <div class="gh-filter-wrap-col gh-filter-margin">
+        <div class="h5 text-bold gh-filter-title">Price</div>
+        <div class="gh-filter-slider">
+          <span class="gh-slider-text">0</span>
+          <span class="gh-slider-text">500</span>
+          <span class="gh-slider-text">5000</span>
+        </div>
+        <input type="range" class="gh-slider">
+      </div>
+
+      <div class="gh-filter-wrap-col gh-filter-margin">
+        <div class="h5 text-bold gh-filter-title">Category</div>
+        <div class="gh-filter-wrap-row">
+          <input type="checkbox" id="indoor">
+          <label for="indoor" class="gh-filter-text">Indoor</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="checkbox" id="outdoor">
+          <label for="outdoor" class="gh-filter-text">Outdoor</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="checkbox" id="air-purify">
+          <label for="air-purify" class="gh-filter-text">Air Purifying</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="checkbox" id="flowering">
+          <label for="flowering" class="gh-filter-text">Flowering</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="checkbox" id="ayurvedic">
+          <label for="ayurvedic" class="gh-filter-text">Ayurvedic</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="checkbox" id="decorative">
+          <label for="decorative" class="gh-filter-text">Decorative</label>
+        </div>
+
+      </div>
+
+      <div class="gh-filter-wrap-col gh-filter-margin">
+        <div class="h5 text-bold gh-filter-title">Ratings</div>
+        <div class="gh-filter-wrap-row">
+          <input type="radio" name="rating" id="four-star" value="4star-above">
+          <label for="four-star" class="gh-filter-text">4 Star and above</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="radio" name="rating" id="three-star" value="3star-above">
+          <label for="three-star" class="gh-filter-text">3 Star and above</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="radio" name="rating" id="two-star" value="2star-above">
+          <label for="two-star" class="gh-filter-text">2 Star and above</label>
+        </div>
+
+      </div>
+
+      <div class="gh-filter-wrap-col gh-filter-margin">
+        <div class="h5 text-bold gh-filter-title">Sort by</div>
+        <div class="gh-filter-wrap-row">
+          <input type="radio" name="sort" id="low-high" value="low-to-high">
+          <label for="low-high" class="gh-filter-text">Price - Low to High</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="radio" name="sort" id="high-low" value="high-to-low">
+          <label for="high-low" class="gh-filter-text">Price - High to Low</label>
+        </div>
+        <div class="gh-filter-wrap-row">
+          <input type="radio" name="sort" id="popularity" value="popularity">
+          <label for="popularity" class="gh-filter-text">Popularity</label>
+        </div>
+
+      </div>
+
+    </aside>
+    <!-- filter ends-->
+
+    <!-- prod cards -->
+    <div class="gh-prod-wrap">
+
+      <!-- card start -->
+      <div class="gh-card card card-image shadow">
+        <div class="card-image-container">
+          <i class="ph-heart card-icon-heart gh-heart"></i>
+          <img src="https://imgcdn.floweraura.com/Express-Products-17-A.jpg" alt="image" class="card-image" />
+          <div class="card-rating">
+            <span class="rating">4.7</span>
+            <i class="fas fa-star card-icon-star"></i> | 78
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="gh-card-title card-image-content-title">Indian Jade</div>
+          <div class="card-image-content-text">Set of 2 Plants</div>
+          <div class="gh-filter-wrap-row">
+            <span class="h6">Rs. 696</span> &nbsp;
+            <del class="h6">Rs. 839</del> &nbsp;
+            <span class="card-text-red">(17% OFF)</span>
+          </div>
+        </div>
+        <div class="card-btn-container gh-btn-container">
+          <button class="card-btn gh-btn gh-btn-primary">Buy Now</button>
+          <button class="card-btn gh-btn gh-btn-secondary">add to cart</button>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- card start -->
+      <div class="gh-card card card-image shadow">
+        <div class="card-image-container">
+          <i class="ph-heart card-icon-heart gh-heart"></i>
+          <img src="https://imgcdn.floweraura.com/Express-Products-17-A.jpg" alt="image" class="card-image" />
+          <div class="card-rating">
+            <span class="rating">4.7</span>
+            <i class="fas fa-star card-icon-star"></i> | 78
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="gh-card-title card-image-content-title">Indian Jade</div>
+          <div class="card-image-content-text">Set of 2 Plants</div>
+          <div class="gh-filter-wrap-row">
+            <span class="h6">Rs. 696</span> &nbsp;
+            <del class="h6">Rs. 839</del> &nbsp;
+            <span class="card-text-red">(17% OFF)</span>
+          </div>
+        </div>
+        <div class="card-btn-container gh-btn-container">
+          <button class="card-btn gh-btn gh-btn-primary">Buy Now</button>
+          <button class="card-btn gh-btn gh-btn-secondary">add to cart</button>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- card start -->
+      <div class="gh-card card card-image shadow">
+        <div class="card-image-container">
+          <i class="ph-heart card-icon-heart gh-heart"></i>
+          <img src="https://imgcdn.floweraura.com/Express-Products-17-A.jpg" alt="image" class="card-image" />
+          <div class="card-rating">
+            <span class="rating">4.7</span>
+            <i class="fas fa-star card-icon-star"></i> | 78
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="gh-card-title card-image-content-title">Indian Jade</div>
+          <div class="card-image-content-text">Set of 2 Plants</div>
+          <div class="gh-filter-wrap-row">
+            <span class="h6">Rs. 696</span> &nbsp;
+            <del class="h6">Rs. 839</del> &nbsp;
+            <span class="card-text-red">(17% OFF)</span>
+          </div>
+        </div>
+        <div class="card-btn-container gh-btn-container">
+          <button class="card-btn gh-btn gh-btn-primary">Buy Now</button>
+          <button class="card-btn gh-btn gh-btn-secondary">add to cart</button>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- card start -->
+      <div class="gh-card card card-image shadow">
+        <div class="card-image-container">
+          <i class="ph-heart card-icon-heart gh-heart"></i>
+          <img src="https://imgcdn.floweraura.com/Express-Products-17-A.jpg" alt="image" class="card-image" />
+          <div class="card-rating">
+            <span class="rating">4.7</span>
+            <i class="fas fa-star card-icon-star"></i> | 78
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="gh-card-title card-image-content-title">Indian Jade</div>
+          <div class="card-image-content-text">Set of 2 Plants</div>
+          <div class="gh-filter-wrap-row">
+            <span class="h6">Rs. 696</span> &nbsp;
+            <del class="h6">Rs. 839</del> &nbsp;
+            <span class="card-text-red">(17% OFF)</span>
+          </div>
+        </div>
+        <div class="card-btn-container gh-btn-container">
+          <button class="card-btn gh-btn gh-btn-primary">Buy Now</button>
+          <button class="card-btn gh-btn gh-btn-secondary">add to cart</button>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- card start -->
+      <div class="gh-card card card-image shadow">
+        <div class="card-image-container">
+          <i class="ph-heart card-icon-heart gh-heart"></i>
+          <img src="https://imgcdn.floweraura.com/Express-Products-17-A.jpg" alt="image" class="card-image" />
+          <div class="card-rating">
+            <span class="rating">4.7</span>
+            <i class="fas fa-star card-icon-star"></i> | 78
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="gh-card-title card-image-content-title">Indian Jade</div>
+          <div class="card-image-content-text">Set of 2 Plants</div>
+          <div class="gh-filter-wrap-row">
+            <span class="h6">Rs. 696</span> &nbsp;
+            <del class="h6">Rs. 839</del> &nbsp;
+            <span class="card-text-red">(17% OFF)</span>
+          </div>
+        </div>
+        <div class="card-btn-container gh-btn-container">
+          <button class="card-btn gh-btn gh-btn-primary">Buy Now</button>
+          <button class="card-btn gh-btn gh-btn-secondary">add to cart</button>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- card start -->
+      <div class="gh-card card card-image shadow">
+        <!-- <div class="card-badge gh-green-bg">trending</div> -->
+        <div class="card-image-container">
+          <i class="ph-heart card-icon-heart gh-heart"></i>
+          <img src="https://imgcdn.floweraura.com/Express-Products-17-A.jpg" alt="image" class="card-image" />
+          <div class="card-rating">
+            <span class="rating">4.7</span>
+            <i class="fas fa-star card-icon-star"></i> | 78
+          </div>
+        </div>
+        <div class="card-content">
+          <div class="gh-card-title card-image-content-title">Indian Jade</div>
+          <div class="card-image-content-text">Set of 2 Plants</div>
+          <div class="gh-filter-wrap-row">
+            <span class="h6">Rs. 696</span> &nbsp;
+            <del class="h6">Rs. 839</del> &nbsp;
+            <span class="card-text-red">(17% OFF)</span>
+          </div>
+        </div>
+        <div class="card-btn-container gh-btn-container">
+          <button class="card-btn gh-btn gh-btn-primary">Buy Now</button>
+          <button class="card-btn gh-btn gh-btn-secondary">add to cart</button>
+        </div>
+      </div>
+      <!-- card end -->
+
+    </div>
+    <!-- prod cards ends -->
+
+  </div>
+
+  <!-- main content ends -->
+</body>
+
+</html>
