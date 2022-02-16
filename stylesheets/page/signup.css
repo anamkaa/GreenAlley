@@ -1,7 +1,7 @@
 @import url("/stylesheets/style.css");
 
 body {
-  background-color: #f2f3f4;
+  background-color: var(--gh-bg1);
 }
 
 .main-wrap {
@@ -19,7 +19,7 @@ body {
 .gh-login-wrap {
   margin: 1rem;
   width: 22rem;
-  background-color: #f8f9fa;
+  background-color: var(--gh-bg2);
   border-radius: 0.2rem;
   box-shadow: rgb(0 0 0 / 2%) 0px 1px 1px, rgb(0 0 0 / 2%) 0px 4px 4px,
     rgb(0 0 0 / 2%) 0px 4px 4px, rgb(0 0 0 / 2%) 0px 8px 8px,
@@ -54,7 +54,7 @@ body {
 }
 
 .gh-login-btn {
-  background-color: #8c9e5e;
+  background-color: var(--gh-green1);
   border: none;
   border-radius: 0.2rem;
   padding: 0.3rem;
@@ -62,7 +62,7 @@ body {
 }
 
 .gh-login-btn:hover {
-  background-color: #98a86e;
+  background-color: var(--gh-green2);
 }
 
 ::-ms-input-placeholder {
