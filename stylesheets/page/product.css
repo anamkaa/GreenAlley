@@ -43,14 +43,13 @@
 
 .gh-card {
   border-radius: 0.2rem;
-  box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
-    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+  box-shadow: var(--gh-card-shadow);
   max-width: 15rem;
   height: fit-content;
 }
 
 .gh-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  box-shadow: var(--gh-card-shadow-hover);
 }
 
 .gh-btn-container {

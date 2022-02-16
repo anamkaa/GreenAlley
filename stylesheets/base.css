@@ -8,4 +8,8 @@
     --gh-green3: #afbb8e;
     --gh-green4: #c6cfaf;
     --gh-offwhite: #f0f1f3;
+
+    --gh-card-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
+    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    --gh-card-shadow-hover: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
