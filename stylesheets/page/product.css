@@ -68,7 +68,7 @@
 }
 
 .gh-btn-primary {
-  background-color: #afbb8e;
+  background-color: var(--gh-green3);
 }
 .gh-btn-primary:hover {
   background-color: var(--gh-green2);
@@ -99,7 +99,7 @@
 }
 
 .gh-heart {
-  color: #c6cfaf;
+  color: var(--gh-green4);
 }
 
 .gh-filter-slider {
