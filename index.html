@@ -5,43 +5,297 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | GreenAlley</title>
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <link rel="stylesheet" href="https://fab-ui-lib.netlify.app/stylesheets/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
     <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
    <!--  -->
-   <nav class="gh-navbar nav-wrap nav-search-wrap ">
-    <div class="gh-nav-head nav-head">GreenAlley</div>
+   <!-- <div class="main-nav-wrap"> -->
 
+    <nav class="gh-navbar nav-wrap nav-search-wrap ">
   
-    <!-- <div class="icon-chip"> -->
-      <div class="gh-search-holder nav-search-holder-icon ">
-        <!-- <i class="fa-brands fa-searchengin fas nav-search-icon"></i> -->
-        <i class="fa-solid fa-seedling  nav-search-icon fas"></i>
-        <!-- <i class="fa-solid fa-tree nav-search-icon fas"></i> -->
-        <!-- <i class="fa-brands fa-searchengin icon nav-search-icon"></i> -->
-        <input type="search" class="input gh-search" placeholder="Search for products, brands and more"/>
-      </div>
-    <!-- </div> -->
-   
-    <div class="nav-icon-wrap">
-      <div class="nav-icon-chip">
-        <!-- <i class="fa-regular fa-user fas"></i> -->
-        <i class="fas fa-user"></i>
-        <span class="nav-icon-text">Log In</span>
-      </div>
-      <div class="nav-icon-chip">
-        <!-- <i class="fa-regular fa-heart fas"></i> -->
-        <i class="fas fa-heart"></i>
-        <span class="nav-icon-text">Wishlist</span>
-      </div>
-      <div class="nav-icon-chip">
-        <i class="fas fa-cart-arrow-down"></i>
-        <span class="nav-icon-text">Cart</span>
-      </div>
+      <a href="/index.html" class="nav-el-1"><div class="gh-nav-head nav-head"> <i class="ph-tree-fill"></i>GreenAlley</div></a> 
+
+  <div class="gh-search-holder nav-search-holder-icon nav-el-2">
+    <i class="fa-solid fa-seedling nav-search-icon fas"></i>
+    <input type="search" class="input gh-search" placeholder="Search for products, brands and more"/>
+  </div>
+
+   <div class="gh-nav-icon-wrap nav-el-3">
+
+    <a href="/page_layouts/login.html">
+ <div class="gh-nav-icon-chip nav-icon-chip">
+      <i class="gh-nav-icon ph-user-bold"></i>
+   <span class="nav-icon-text">Log In</span>
+  </div></a>
+
+  <a href="/page_layouts/wishlisht.html"><div class="gh-nav-icon-chip nav-icon-chip badge-container">
+    <i class="gh-nav-icon ph-heart-straight-bold"></i>
+    <div class="gh-nav-badge badge badge-online badge-icon badge-text">4</div>
+  <span class="nav-icon-text">Wishlist</span> 
+  </div></a>
+
+  <a href="/page_layouts/cart-management.html"><div class="gh-nav-icon-chip nav-icon-chip badge-container">
+    <i class="gh-nav-icon ph-shopping-cart-simple-bold"></i>
+    <div class="gh-nav-badge badge badge-online badge-icon badge-text">4</div>
+    <span class="nav-icon-text">Cart</span>
+  </div></a> 
+
     </div>
   </nav>
   <!--  -->
+
+  <div class="wrapper">
+    <a href="#"><div class="tab-section">
+     Seeds
+    </div></a> 
+
+    <a href="#"><div class="tab-section">
+     Plants
+    </div></a>
+
+    <a href="#"><div class="tab-section">
+     Pots&Planters
+    </div></a>
+
+    <a href="#"><div class="tab-section">
+     Tools
+     </div></a>
+
+     <a href="#"></a><div class="tab-section">
+     PlantCare
+    </div></a>
+
+    <a href="#"><div class="tab-section">
+     Gifts
+    </div></a>
+
+    <a href="#"><div class="tab-section">
+     Offers
+    </div></a>
+  </div>
+
+   <!-- </div> -->
+
+   <!-- hero start -->
+   <div class="gh-hero-wrap">
+     
+     <div class="gh-hero-text">
+      <div class="h1">Grow with Green</div>
+       <div class="h5">One stop shop for all your needs</div>
+       <a href="#"> <button class="gh-hero-btn">Shop Now</button></a>
+     </div>
+     <div>
+      <img src="/assets/cycle-no-bg.png" alt="image" class="gh-hero-img image">
+     </div>
+    
+   </div>
+  <!-- hero end -->
+
+  <div class="home-title">Deals For You</div>
+
+  <!-- deal section start -->
+<div class="home-card-wrap">
+  
+  <a href="#">
+  <div class="deal-card home-card-pill card">
+    <img src="/assets/deal-pl.jpg" alt="image" class="home-card-img-lg">
+    <div class="card deal-card-sm">
+      <div class="deal-card-header"><i class="ph-handshake"></i> &nbsp; Deal For You</div>
+      <div class="deal-card-text">Shop for Rs.499 and get a free voucher of Rs.99</div>
+    </div>
+  </div></a>
+
+  <a href="#">
+  <div class="deal-card home-card-pill card">
+    <img src="/assets/deal-pl.jpg" alt="image" class="home-card-img-lg">
+    <div class="card deal-card-sm">
+      <div class="deal-card-header"><i class="ph-tree-evergreen"></i> &nbsp; Collection</div>
+      <div class="deal-card-text">Latest collections, grab your green  </div>
+    </div>
+  </div></a>
+
+  <a href="#">
+  <div class="deal-card home-card-pill card">
+    <img src="/assets/deal-pl.jpg" alt="image" class="home-card-img-lg">
+    <div class="card deal-card-sm">
+      <div class="deal-card-header"><i class="ph-gift"></i> &nbsp;Gifts that Grow</div>
+      <div class="deal-card-text">Personalise gifts and hampers for your loved ones</div>
+    </div>
+  </div></a>
+
+</div>
+  <!-- deal section end -->
+
+  <div class="home-title">Best Sellers</div>
+
+<!-- best seller start -->
+<div class="home-card-wrap">
+  
+  <a href="#">
+  <div class="deal-card home-card-pill card">
+    <img src="https://media.ugaoo.com/catalog/product/cache/bf904fa088be7169b4178c352b6a4f7a/p/h/philodendronbrokenheart_45_1.png" alt="image" class="home-card-img-lg">
+    <div class="card-content">
+      <div class="gh-card-title card-image-content-title">Broken Heart Plant</div>
+       <div class="gh-filter-wrap-row">
+        <span class="h6">Rs. 699</span> &nbsp;
+        <del class="h6">Rs. 799</del> &nbsp;
+      </div>
+    </div> 
+  </div></a>
+
+  <a href="#">
+  <div class="deal-card home-card-pill card">
+    <img src="https://media.ugaoo.com/catalog/product/cache/bf904fa088be7169b4178c352b6a4f7a/a/g/aglaonemaredmediumredpot_45.png" alt="image" class="home-card-img-lg">
+    <div class="card-content">
+      <div class="gh-card-title card-image-content-title">Aglaonema Red Plant</div>
+       <div class="gh-filter-wrap-row">
+        <span class="h6">Rs. 696</span> &nbsp;
+        <del class="h6">Rs. 839</del> &nbsp;
+      </div>
+    </div>
+  </div></a>
+
+  <a href="#">
+  <div class="deal-card home-card-pill card">
+    <img src="https://media.ugaoo.com/catalog/product/cache/bf904fa088be7169b4178c352b6a4f7a/m/o/monsteradeliciosa_45.png" alt="image" class="home-card-img-lg">
+    <div class="card-content">
+      <div class="gh-card-title card-image-content-title">Monstera Deliciosa Plant</div>
+       <div class="gh-filter-wrap-row">
+        <span class="h6">Rs. 1399</span> &nbsp;
+        <del class="h6">Rs. 1539</del> &nbsp;
+      </div>
+    </div>
+  </div></a>
+
+
+</div>
+  <!-- best seller end -->
+
+  <div class="home-title">Collection</div>
+
+  <!--  collection start -->
+
+  <a href="#">
+  <div class="home-card-wrap">
+    <div class="home-card-pill">
+      <img src="/assets/indoor-pl.jpg" alt="image" class="home-card-img">
+      <div class="text-small text-center home-card-txt-sm">Indoor Plants</div>
+    </div></a>
+
+    <a href="#">
+    <div class="home-card-pill">
+      <img src="/assets/decor.jpg" alt="image" class="home-card-img">
+      <div class="text-small text-center home-card-txt-sm">Decor Plants</div>
+    </div></a>
+
+    <a href="#">
+    <div class="home-card-pill">
+      <img src="/assets/low-pl.jpg" alt="image" class="home-card-img">
+      <div class="text-small text-center home-card-txt-sm">Low-Maintanance Plants</div>
+    </div></a>
+
+    <a href="#">
+    <div class="home-card-pill">
+      <img src="/assets/flwr-pl.jpg" alt="image" class="home-card-img">
+      <div class="text-small text-center home-card-txt-sm">Flowering Plants</div>
+    </div></a>
+
+    <a href="#">
+    <div class="home-card-pill">
+      <img src="/assets/purify-pl.jpg" alt="image" class="home-card-img">
+      <div class="text-small text-center home-card-txt-sm">Air Purifying Plants</div>
+    </div></a>
+  
+  </div>
+
+  <!-- collection end -->
+
+  <div class="home-title">Shop By Category</div>
+
+  <!-- category start -->
+<div class="home-card-wrap">
+
+ 
+  <div class="home-card-pill">
+    <img src="/assets/grown-pl.jpg" alt="image" class="home-card-img-lg">
+    <div class="home-card-txt">Grown Plants</div>
+    <a href="#"><div class="text-small flex-center txt-explore">Explore <i class="ph-caret-right-fill"></i></div></a>
+  </div>
+
+  <a href="#">
+  <div class="home-card-pill">
+    <img src="/assets/pot-pl.jpg" alt="image" class="home-card-img-lg">
+    <div class="home-card-txt">Plant Pots</div>
+    <a href="#"><div class="text-small flex-center txt-explore">Explore <i class="ph-caret-right-fill"></i></div></a>
+  </div>
+
+  <a href="#">
+  <div class="home-card-pill">
+    <img src="/assets/tools.jpg" alt="image" class="home-card-img-lg">
+    <div class="home-card-txt">Garden Tools</div>
+    <a href="#"><div class="text-small flex-center txt-explore">Explore <i class="ph-caret-right-fill"></i></div></a>
+  </div>
+
+</div>
+  <!-- category end -->
+
+  <!-- footer start -->
+
+  <footer class="gh-home-foot">
+
+    <div class="mx-11">
+      <div class="gh-home-foot-mid">
+        <div class="gh-home-foot-icon-wrap">
+         <a href="#"> <i class="ph-twitter-logo gh-home-foot-icon"></i> </a>
+         <a href="#"> <i class="ph-instagram-logo gh-home-foot-icon"></i></a>
+          <a href="#"> <i class="ph-facebook-logo gh-home-foot-icon"></i></a>
+          <a href="#"> <i class="ph-pinterest-logo gh-home-foot-icon"></i></a>
+          <a href="#"> <i class="ph-youtube-logo gh-home-foot-icon"></i></a>
+        </div>
+
+        <div class="gh-care">
+          <div class="gh-home-foot-head-pill">
+            <span><span class="text-bold">Customer Care:</span> +00 0000</span>
+          </div>
+          <div class="gh-home-foot-head-pill">
+            <span> <span class="text-bold">Email Us:</span> support@greenalley.com</span>
+          </div>
+        </div>
+
+      </div>
+  
+      <div class="gh-home-foot-head">
+        <div class="gh-home-foot-head-pill">
+          <a href="#"><span>About Us</span></a>
+          <a href="#"><span>Contact Us</span></a>
+        </div>
+        <div class="gh-home-foot-head-pill">
+          <a href="#"> <span>Track Order</span></a>
+            <a href="#"> <span>Shipping Policy</span></a>
+        </div>
+        <div class="gh-home-foot-head-pill">
+          <a href="#"> <span>Privacy Policy</span></a>
+            <a href="#"> <span>Terms & Conditions</span></a>
+        </div>
+        <div class="gh-home-foot-head-pill">
+          <a href="#"> <span>Gifting</span></a>
+            <a href="#"> <span>FAQs</span></a>
+        </div>
+      </div>
+  
+        <div class="text-small text-center">All Rights Reserved 2022 | GreenAlley</div>
+    
+    </div>
+  
+
+  </footer>
+
+  <!-- footer end -->
+
+  
+
 </body>
 </html>
