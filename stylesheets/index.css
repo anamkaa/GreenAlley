@@ -325,3 +325,7 @@ body {
   max-width: 1100px;
   margin-inline: auto;
 }
+
+.bg-white{
+  background-color: var(--gh-white);
+}
