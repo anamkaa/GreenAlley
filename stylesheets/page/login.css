@@ -86,3 +86,11 @@ body {
   font-size: 0.7rem;
   color: var(--gh-green2);
 }
+
+@media screen and (max-width:600px) {
+
+  .gh-txt-sm{
+    font-size: 0.58rem;
+  }
+  
+}

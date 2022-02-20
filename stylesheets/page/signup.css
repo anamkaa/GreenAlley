@@ -18,7 +18,7 @@ body {
 
 .gh-login-wrap {
   margin: 1rem;
-  width: 22rem;
+  width: 25rem;
   background-color: var(--gh-bg2);
   border-radius: 0.2rem;
   box-shadow: rgb(0 0 0 / 2%) 0px 1px 1px, rgb(0 0 0 / 2%) 0px 4px 4px,
@@ -77,4 +77,12 @@ body {
 
 .justify-center {
   justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+
+  .gh-txt-sm{
+    font-size: 0.58rem;
+  }
+  
 }
