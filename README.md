@@ -5,7 +5,7 @@ GreenAlley is an e-commerce site for all your green needs. Go on the link provid
 <https://greenalley.netlify.app/>
 
 ## Preview
-https://user-images.githubusercontent.com/75376715/154940076-472cbd7f-1fba-42d1-8852-8c01aa594701.mp4
+https://user-images.githubusercontent.com/75376715/154953674-53697c89-bb8d-4bca-9213-e04fceb99703.mp4
 
 ## Pages
 - Landing Page
