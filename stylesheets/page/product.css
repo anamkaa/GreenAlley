@@ -10,6 +10,7 @@
 .gh-main-wrap {
   display: flex;
   margin: 1rem;
+  margin-bottom: 4rem;
 }
 
 .gh-filter-wrap {
@@ -128,6 +129,7 @@
   background-color:  var(--gh-bg2);
   z-index: 9999;
   display: none;
+  margin-top: 4rem;
 }
 
 .btn-filter{
@@ -177,7 +179,7 @@
 }
 
 .gh-card{
-  max-width: 9.9rem;
+  max-width: 8.5rem;
 }
 
 .price-text{
@@ -185,7 +187,7 @@
 }
 
 .gh-btn{
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   padding: 0.1rem;
 }
 }
