@@ -264,6 +264,14 @@ body {
   padding-left: 0.1rem;
 }
 
+.green-txt{
+  color: var(--gh-green3);
+}
+
+.green-bg{
+  background-color: var(--gh-green2);
+}
+
 @media screen and (max-width: 600px) {
   .nav-el-1 {
     order: 1;
